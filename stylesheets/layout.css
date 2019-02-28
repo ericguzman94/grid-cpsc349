@@ -93,3 +93,56 @@ footer
 }
 */
 
+/*              ------------Layout #4 ------------------- 
+
+body
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+header
+{
+  grid-row-start: 1;
+  grid-column-start:1;
+  grid-column-end:4;
+}
+
+.navigation
+{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+article
+{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.links
+{
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+footer
+{
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+main article p:nth-of-type(2)
+{
+  color: red;
+}
+
+
+
+*/
+
