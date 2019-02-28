@@ -1,6 +1,5 @@
-/* Add layout here */
 
-
+/*                  -------------Layout #1----------------
 
 .navigation {
     display: grid;
@@ -12,8 +11,6 @@
     grid-column-start: 1;
 }
 
-/*
-1.
 .navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -29,8 +26,7 @@
 }
 */
 
-/*
-2.
+/*           --------------Layout #2---------------
 .navigation {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -39,6 +35,53 @@
 .navigation > ul{
     
     grid-column-start: 3;
+}
+*/
+
+
+/*             ---------Layout #3 (header on bottom, footer on top, etc)------------
+
+
+body
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+header
+{
+  grid-row-start: 3;
+  grid-column-start:1;
+  grid-column-end:4;
+}
+
+.navigation
+{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+article
+{
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.links
+{
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+footer
+{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 .links{
     display: grid;
