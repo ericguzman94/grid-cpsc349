@@ -1,1 +1,41 @@
 /* Add site styles here */
+
+*
+{
+  font: 15px helvtica, sans-serif;
+  color: 	#b8c0cd;
+}
+
+body
+{
+  background-color: #363636;
+}
+
+ main, nav
+{
+  background-color:  #073559;
+  border: 2px solid #636363;
+}
+
+.links
+{
+  font: 15px helvetica, sans-serif;
+}
+ a
+ {
+   text-decoration: none;
+ }
+ a:hover
+ {
+   background-color: #636363;
+   color: #ffdf99
+ }
+
+ nav ul li
+ {
+   background-color: 	#363636;
+   list-style: none;
+   margin: 5px;
+   padding: 1px;
+
+ }

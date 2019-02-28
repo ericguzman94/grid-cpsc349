@@ -1,19 +1,52 @@
 /* Add layout here */
 
 
-body{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-}
 
 .navigation {
-    border: 10px;
-    border-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .navigation > ul{
     
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-column-start: 1;
 }
+
+/*
+1.
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigation > ul{
+    
+    grid-column-start: 3;
+}
+.links > ul{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%
+}
+*/
+
+/*
+2.
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigation > ul{
+    
+    grid-column-start: 3;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.links > ul{
+    grid-column-start: 3;
+}
+*/
+
